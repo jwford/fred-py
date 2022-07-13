@@ -23,4 +23,5 @@ async def on_message(msg):
         if cmd == 'pong':
             await msg.channel.send('ping!')
 
-bot.run(os.getenv('BOT_TOKEN'))
+# commenting out until later
+# bot.run(os.getenv('BOT_TOKEN'))
